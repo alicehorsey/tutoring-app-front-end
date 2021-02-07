@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.App-background {
+  /* background-color: #6c98ee; */
+  background-image: url("../src/images/pencils-bg3.jpg");
+  background-size:cover;
+  background-position:bottom;
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
