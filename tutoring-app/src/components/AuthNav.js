@@ -2,7 +2,7 @@ import React from "react";
 import AuthenticationButton from "./AuthenticationButton";
 
 const AuthNav = () => (
-    <div>
+    <div className="navbar-nav ml-auto">
         <AuthenticationButton />
     </div>
 );

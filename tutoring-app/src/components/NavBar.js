@@ -1,17 +1,17 @@
-import React from 'react';
-import { NavLink as RouterNavLink } from "react-router-dom";
-
-import { useAuth0 } from "@auth0/auth0-react";
-
 import AppNav from "./AppNav";
 import AuthNav from "./AuthNav";
 
 const NavBar = () => {
     return (
-        <div>
-            <AppNav />
-            <AuthNav />
-        </div>
+        // <div className="nav-container mb-3">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
+                <div className="navbar-brand logo" />
+                <AppNav />
+                <AuthNav />
+            </div>
+        </nav>
+        // </div>
     );
 };
 

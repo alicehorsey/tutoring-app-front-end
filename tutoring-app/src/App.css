@@ -2,7 +2,11 @@
   text-align: center;
 }
 
-.App-background {
+#app{
+  max-height: 100%;
+}
+
+#app-background {
   /* background-color: #6c98ee; */
   background-image: url("../src/images/pencils-bg3.jpg");
   background-size:cover;
@@ -15,5 +19,13 @@
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.home {
+  padding-top: 50px;
+  /* height: 80vh; */
+  background-image: url("../src/images/pencils-bg3.jpg");
+  background-size:cover;
+  background-position:bottom;
 }
 
